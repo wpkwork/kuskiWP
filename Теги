@@ -1,0 +1,33 @@
+<ABBR> abbreviation аббревиатура
+<ACRONYM> acronym акроним
+<A> anchor якорь (то есть якорь с одной на другую страницу)
+<B> bold жирный
+<BR> break разрыв
+<DL> definition list определение списка (терминов)
+<DT> definition term определение термина
+<DD> definition description определение описания (термина)
+<DIV> division раздел
+<EM> emphasis акцент
+<H> heading заголовок
+<HR> horisontal rule горизонтальная черта
+<I> italic курсив
+<LI> list item пункт списка
+<NAV> navigation навигация по сайту (HTML 5)
+<OL> ordered list упорядоченный (нумерованный) список
+<P> paragraph абзац
+<PRE> preformatted предварительно отформатированный
+<Q> quote цитата
+<S> strikethrough зачеркнутый
+<SPAN> span интервал
+<SUB> subscript подстрочный индекс
+<SUP> superscript надстрочный индекс
+<TABLE> table таблица
+<THEAD> table head заголовок таблицы
+<TBODY> table body тело таблицы
+<TR> table row строка таблицы
+<TH> table header заголовок таблицы (ячейка)
+<TD> table data ячейка (данное) таблицы
+<TFOOT> table foot основание, "подвал" таблицы
+<U> underline подчеркнутый
+<UL> unordered list неупорядоченный список
+<VAR> variable переменная
