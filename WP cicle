@@ -1,0 +1,37 @@
+// СТАНДАРТНЫЙ ЦИКЛ WORDPRESS
+
+<?php if( have_posts() ){ while( have_posts() ){ the_post(); ?>
+
+	<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+		<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+		<?php the_content(); ?>
+	</div>
+
+	<?php } /* конец while */ ?>
+
+	<div class="navigation">
+		<div class="next-posts"><?php next_posts_link(); ?></div>
+		<div class="prev-posts"><?php previous_posts_link(); ?></div>
+	</div>
+
+<?php
+} // конец if
+else 
+	echo "<h2>Записей нет.</h2>";
+
+/***********************************************************************************/
+
+/*
+*  Выборка по заданным параметрам 
+*/
+
+<?php
+global $query_string; // параметры базового запроса
+query_posts( $query_string.'&cat=-6,-9&order=ASC&posts_per_page=20'); // базовый запрос + свои параметры 
+
+[СТАНДАРТНЫЙ ЦИКЛ WORDPRESS]
+
+wp_reset_query(); // сброс запроса
+?>
+
+/***********************************************************************************/
